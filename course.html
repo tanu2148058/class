@@ -3,7 +3,42 @@
 
 <head>
 	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<script>
+	dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
+dataLayer.push({
+  event: "select_course",
+  : {
+    course: [
+     {
+      courseid: "SKU_12345",
+     course_name: "MASTERS OF COMPUTER APPLICATIONS",
+      affiliation: "COMPUTER SCIENCE DEPARTMENT",
+      currency: "INR",
+      discount: 2.22,
+      index: 0,
+      course_university: "CHRIST UNIVERSITY",
+      course_category: "RELEVANT",
+      course_list_id: "2",
+ 
+      course_variant: "full time ",
+      location_id: "ChIJIQBpAG2ahYAR_6128GcTUEo",
+      price: 9.99,
+      quantity: 1
+    },
+    {
+      course_id: "SKU_12346",
+      item_name: "MASTERS IN DATA SCIENCE",
+      affiliation: "COMPUTER SCIENCE DEPARTMENT",
+      currency: "INR",
+      
+     course_university: "CHRIST UNIVERSITY",
+      course_category: "RELEVANT",
+      course_list_id: "1",
+      quantity: 1
+    }]
+  }
+});
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
